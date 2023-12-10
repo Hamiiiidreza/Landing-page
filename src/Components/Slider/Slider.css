@@ -1,0 +1,20 @@
+
+.slider {
+   margin-top: 3rem;
+}
+.slider__wrapper {
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slider__img {
+   width: 6rem;
+   height: 2rem;
+   transition: 0.3s;
+   filter: grayscale(100%);
+   opacity: 0.5;
+}
+.slider__img:hover {
+   filter: grayscale(0);
+   opacity: 1;
+}

@@ -1,0 +1,18 @@
+
+.team {
+    margin-top: 4rem;
+}
+.team-header {
+    display: flex;
+    flex-direction: column;
+}
+.team-header__title {
+   
+}
+.team-header__text {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.team-content {
+    margin-top: 3rem;
+}

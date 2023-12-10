@@ -1,0 +1,62 @@
+@import './Variables/Variables.css';
+
+
+
+/* start default styles */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6 !important;
+  font-size: 1.6 !important;
+  font-family: var(--primary-font) !important;
+  direction: rtl !important;
+
+}
+
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+  color: var(--white-color);
+  transition: all 400ms ease;
+}
+a:hover {
+  color: var(--primary-color);
+}
+i {
+  user-select: none;
+}
+
+/* Finish default styles */
+
+/* 
+
+--helper classes
+
+*/
+
+.align-items-center {
+  align-items: center;
+}
+
+.title {
+  color: var(--secoundary-color);
+  font-size: 0.8rem;
+  position: relative;
+  letter-spacing: 0.1rem;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  width: 7.5rem;
+  height: 0.1rem;
+  background-color: #ffde9e;
+  margin: 0.5rem 0.7rem;
+}

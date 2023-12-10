@@ -1,0 +1,25 @@
+
+.statistics {
+    margin-top: 4rem;
+}
+.statistics__cover {
+    height: 100%;
+}
+.statistics__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.statistics__content {
+    padding: 1.7rem 1.7rem;
+}
+.statistics__title {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--dark-color);
+}
+.statistics__caption {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--secoundary-dark-color);
+}

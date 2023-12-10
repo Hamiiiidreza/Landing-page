@@ -1,0 +1,18 @@
+
+.services {
+   margin-top: 4rem;
+}
+.services-header {
+   display: flex;
+   flex-direction: column;
+}
+.services-header__title {
+    
+}
+.services-header__text {
+   font-weight: 600;
+   font-size: 2rem;
+}
+.services-content {
+   margin-top: 2rem;
+}

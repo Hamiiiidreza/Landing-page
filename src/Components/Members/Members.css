@@ -1,0 +1,40 @@
+
+.members {
+    margin-top: 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../public/Img/testimonials-bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 3rem 0;
+}
+.members__content {
+    padding: 2rem 2rem;
+}
+.members__img {
+    width: 6.2rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.3rem solid rgba(255, 255, 255, 0.15);
+}
+.members__name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0.6rem 0 0.3rem 0;
+    color: var(--white-color);
+}
+.members__job {
+    font-size: 0.8rem;
+    margin-bottom: 0.9rem;
+    color: #ddd;
+}
+.members__caption {
+    font-size: 1rem;
+    text-align: justify;
+    color: #ddd;
+}
+.members__icon {
+    font-size: 1.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.4rem;
+    color: #ddd;
+}

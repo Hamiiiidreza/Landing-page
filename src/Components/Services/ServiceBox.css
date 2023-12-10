@@ -1,0 +1,47 @@
+
+.service {
+   background-color: var(--white-color);
+   border: 1px solid #ebebeb;
+   text-align: center;
+   margin: 1rem 0;
+   padding: 4.5rem 1.2rem;
+   transition: all 300ms ease-in-out;
+   height: 100%;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service:hover {
+   border-color: var(--white-color);
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 10%);
+   transform: translateY(-0.5rem);
+}
+.service__icon-box {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+.service__icon {
+   color: #151515;
+   font-size: 1.5rem;
+}
+.service__title {
+   font-weight: 700;
+   font-size: 1.3rem;
+   margin-bottom: 1rem;
+}
+.service__link {
+   color: var(--dark-color);
+}
+.service__caption {
+    font-size: 0.8rem;
+    text-align: justify;
+    color: var(--secoundary-dark-color);
+}

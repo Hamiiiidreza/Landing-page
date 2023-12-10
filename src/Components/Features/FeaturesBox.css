@@ -1,0 +1,28 @@
+
+.feature__box {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 1rem;
+}
+.features__box-right {
+
+}
+.features__box-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+.features__box-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+.features__box-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--secoundary-dark-color);
+}
+.features__box-text {
+    color: var(--secoundary-color);
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+   .squareBoxContainer {
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+   }
+   .header-content {
+      margin-bottom: 2rem;
+   }
+   .header-content__description {
+      margin-top: 0.5rem;
+   }
+   .header-content__title {
+      white-space: nowrap;
+   }
+   .nav-logo {
+      margin-right: -1rem;
+   }
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 460px) {
+    
+}

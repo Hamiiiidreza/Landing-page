@@ -1,0 +1,26 @@
+
+.scroll {
+   
+}
+.scroll__link {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--primary-color);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0.9rem;
+    bottom: 2.5rem;
+    border-radius: 0.2rem;
+}
+.scroll__icon {
+    font-size: 1.1rem;
+    color: var(--dark-color);
+}
+.scroll__link:hover {
+    background-color: var(--dark-color);
+}
+.scroll__link:hover .scroll__icon {
+    color: var(--primary-color);
+}

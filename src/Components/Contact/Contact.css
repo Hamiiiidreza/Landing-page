@@ -1,0 +1,96 @@
+
+.contact {
+    margin-top: 4rem;
+}
+.contact-header {
+    display: flex;
+    flex-direction: column;
+}
+.contact-header__title {
+
+}
+.contact-header__text {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.contact-info {
+    margin-top: 3rem;
+}
+.contact-info__box {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+.contact-info__box-right {
+    width: 2.7rem;
+    height: 2.7rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+.contact-info__box-icon {
+    font-size: 1.4rem;
+}
+.contact-info__box-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+.contact-info__box-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--dark-color);
+}
+.contact-info__box-caption {
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    color: #484848;
+}
+.contact-forms {
+    margin-top: 4rem;
+}
+.contact-forms__name-input,
+ .contact-forms__email-input,
+ .contact-forms__subject-input{
+    width: 100%;
+    height: 2.7rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: iransans;
+}
+.contact-forms__subject {
+
+}
+.contact-forms__message {
+
+}
+.contact-forms__message-textarea {
+    width: 100%;
+    height: 8rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: iransans;
+    padding: 0.8rem;
+    margin-top: 2rem;
+}
+.contact-forms__btn {
+    text-align: center;
+    margin-top: 1rem;
+}
+.contact-forms__btn-text {
+    background: var(--primary-color);
+    border: 0;
+    padding: 0.6rem 1.5rem;
+    color: var(--dark-color);
+    border-radius: 0.2rem;
+    font-family: iransans;
+    cursor: pointer;
+}

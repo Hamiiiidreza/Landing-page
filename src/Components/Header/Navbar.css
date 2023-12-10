@@ -1,0 +1,123 @@
+
+.nav{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.8rem 8rem;
+   background: rgba(0, 0, 0, 0.8);
+   top: 0;
+   right: 0;
+   left: 0;
+   position: fixed;
+   z-index: 9999;
+}
+.nav-logo{ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   margin-right: -4rem;
+}
+.nav-logo__img {
+    width: 40px;
+    height: 40px;
+}
+.nav-logo__title {
+   color: var(--white-color);
+   font-size: 2.2rem;
+   font-weight: 700;
+   cursor: pointer;
+}
+.nav-menu{ 
+   z-index: 100;
+   width: 100%;
+   margin: 0 1rem;
+}
+.nav-menu__container{ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.nav-menu__item{ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 0.3rem;
+}
+.nav-menu__link{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--white-color);
+   position: relative;
+   font-size: 0.9rem;
+   padding: 0 0.6rem;
+}
+.nav-menu__link-icon {
+   margin-right: 0.2rem;
+   color: var(--white-color);
+   font-size: small;
+}
+.nav-menu__link-icon:hover {
+   color: var(--primary-color);
+}
+.nav-menu__link--active {
+   color: var(--primary-color);
+}
+
+/* start Dropdown styles */
+
+.nav-menu__dropdown{ 
+   position: absolute;
+   top: 4rem;
+   right: 0;
+   left: 0;
+   background-color: var(--white-color);
+   transition: all 200ms ease-in-out;
+   box-shadow: 0 0 10px 0 rgba(0, 0green, 0blue, 0.12);
+   width: 12.5rem;
+   border-radius: 0.1rem;
+   z-index: 99;
+   padding: 1rem 0;
+   opacity: 0;
+   visibility: hidden;
+}
+.nav-menu__link:hover .nav-menu__dropdown {
+   opacity: 1;
+   visibility: visible;
+   top: 2.5rem;
+}
+.nav-menu__dropdown-item {
+   transition: all 200ms ease;
+}
+.nav-menu__dropdown-item:hover {
+   background-color: var(--primary-color);
+}
+.nav-menu__dropdown-link{ 
+   display: block;
+   padding: 0.5rem 2rem;
+   font-size: 0.9rem;
+   color: var(--dark-color);
+   transition: all 200ms ease;
+}
+.nav-menu__dropdown-link:hover {
+   color: var(--dark-color);
+}
+
+/* Finish Dropdown stayles */
+
+.nav-btn{ 
+   display: flex;
+   align-items: center;
+   border: 2px solid var(--primary-color);
+   border-radius: 0.3rem;
+   padding: 0.5rem 1.5rem;
+   transition: all 200ms ease;
+   color: var(--white-color);
+   font-size: 0.9rem;
+}
+.nav-btn:hover {
+   background-color: var(--primary-color);
+   color: var(--secoundary-dark-color);
+}
+
